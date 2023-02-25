@@ -27,7 +27,7 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: black;}
 
 body {
 	line-height: 1;
@@ -140,11 +140,12 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: honeydew;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
+		background-color: blue;
 	}
 
 	a {
@@ -293,7 +294,7 @@ input, select, textarea {
 	}
 
 	.align-center {
-		text-align:right;
+		text-align: center;
 	}
 
 	.align-right {
@@ -393,7 +394,8 @@ input, select, textarea {
 	textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
+		-ms-appearance: nASTORICHY
+WELCOME TO CASTORICHY WERE YOU GET EVERYTHING SETone;
 		appearance: none;
 		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -654,7 +656,7 @@ input, select, textarea {
 			height: 100%;
 			left: 0;
 			opacity: 0.5;
-			position: absolute;
+			position: relative;
 			top: 0;
 			width: 100%;
 		}
@@ -735,7 +737,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1em;
+		padding-left: 40em;
 	}
 
 		ul li {
