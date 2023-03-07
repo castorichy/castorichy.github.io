@@ -1,36 +1,31 @@
 {
-  "name": "John_Doe",
-  "version": "1.5.0",
-  "description": "An elegant responsive bootstrap 4.x theme.",
-  "main": "gulpfile.js",
-  "author": "DevCRUD",
+  "name": "devportfolio-template",
+  "version": "1.2.2",
+  "description": "",
+  "main": "js/scripts.js",
   "scripts": {
-    "start": "gulp"
+    "watch": "gulp watch"
   },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "tech",
+    "coding",
+    "dev"
+  ],
+  "author": "Ryan Fitzgerald",
+  "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
-    "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^7.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "ie >= 8",
-    "edge >= 15",
-    "ie_mob >= 10",
-    "ff >= 45",
-    "chrome >= 45",
-    "safari >= 7",
-    "opera >= 23",
-    "ios >= 7",
-    "android >= 4"
-  ]
+    "gulp-wait": "0.0.2"
+  }
 }
